@@ -66,4 +66,4 @@ function updateGlobal() {
   updateAnnouncement();
   if (getCookie("blockPopUp") == 1){return}else{letsKnowPopUp();}
 }
-updateGlobal()
+$(document).ready( updateGlobal() )
