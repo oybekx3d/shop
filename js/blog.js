@@ -1,4 +1,4 @@
-function loadCheatsheet(){
+function loadBlog(){
     let i = 1;
     fetch("data/blog.json")
             .then(response => response.json())

@@ -66,4 +66,4 @@ loadFooter();
 updateAnnouncement();
 if (getCookie("blockPopUp") == 1){return}else{letsKnowPopUp();}
 }
-updateGlobal()
+$(window).on('load', updateGlobal)

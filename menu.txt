@@ -1,5 +1,6 @@
 
-        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
+        <label></label>
         <ul>
           <li><a href='index.html'>Home</a></li>
           <li><a class='dropdown-arrow'>PCs</a>
@@ -8,7 +9,7 @@
               <li><a href='productivity.html'>Productivity PCs</a></li>
             </ul>
           </li>
-          <li><a href='accs.html'>Accessories & peripherals</a></li>
+          <li><a href='accessories.html'>Accessories & peripherals</a></li>
           <li><a href='deals.html'>Deals</a></li>
           <li><a href='benchmarks.html'>Benchmarks</a></li>
           <li><a href='blog.html'>Blog</a></li>

@@ -2,16 +2,16 @@
         <div>
           <div>
             <h3>Partners</h3>
-            <a href="">GamerTech Toronto</a>
-            <a href="">PainHub</a>
-            <a href="">BigTechYoutuber</a>
+            <a href=''>GamerTech Toronto</a>
+            <a href=''>PainHub</a>
+            <a href=''>BigTechYoutuber</a>
           </div>
           <div>
             <h3>Other Links</h3>
-            <a href="socials.html">Our Socials</a>
-            <a href="faq.html">F.A.Q.</a>
-            <a href="about.html">About</a>
-            <a href="#">Donate!</a>
+            <a href='socials.html'>Our Socials</a>
+            <a href='faq.html'>F.A.Q.</a>
+            <a href='about.html'>About</a>
+            <a href='#'>Donate!</a>
           </div>
         </div>
         <h4>Website Made by Oybek Qodirberdiyev</h4>
