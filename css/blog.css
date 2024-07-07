@@ -1,0 +1,136 @@
+#mainMenuBanner{
+    background-image: url("../imgs/blog_banner.svg");
+}
+#blog a div{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin: 0;
+}
+#blog a div:hover{
+    background-color: transparent;
+}
+#blog{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 10vw;
+}
+#blog a{
+    color: #fff;
+    padding: 1vw;
+    display: flex;
+    border: #5562f6 0.2vw solid;
+    margin: 1vw;
+    cursor: pointer;
+    padding: 2vw;
+}
+#blog a:hover{
+    background-color: #ff000009;
+}   
+#blog img{
+    width: 15vw;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+#blog h2{
+    font-weight: 1000;
+    font-size: 1.5vw;
+    margin: 1vh 0;
+}
+#blog p{
+    font-size: 0.75vw;
+    margin: 1vh 0;
+}
+#blog h4{
+    font-size: 0.75vw;
+    margin: 1vh 0;
+}
+#blog h5{
+    font-size: 0.75vw;
+    margin: 0;
+    margin-top: auto;
+}
+#blogPostPopUp{
+    scroll-behavior: smooth;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 80vw;
+    background-color: #2f2f2f;
+    color: #fff;
+    padding: 5vw;
+    margin: 0 5vw;
+    border: #5562f6 0.2vw solid;
+}
+#blogPostPopUp div:nth-of-type(1){
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+}
+#blogMuhaha{
+    text-align: center;
+}
+#blogPostPopUp h2{
+    font-size: 2.5vw;
+    text-align: center;
+}
+#blogPostPopUp h3{
+    font-size: 1vw;
+}
+#blogPostPopUp img{
+    width: 20vw;
+}
+#blogPostPopUp button{
+    background-color: #272727;
+    border: #5562f6 0.2vw solid;
+    color: #fff;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    margin: 0.5vw;
+    margin-left: auto;
+    cursor: pointer;
+	border-radius: .2vw;
+}
+#blogPostPopUp p{
+    font-family: Arial, sans-serif;
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+@media screen and (max-width: 800px){
+    #blog{
+        grid-template-columns: auto;
+    }
+    #blog img{
+        width: 30vw;
+    }
+    #blog h2{
+        font-size: 2vh;
+    }
+    #blog p{
+        font-size: 1.5vh;
+    }
+    #blog h4{
+        font-size: 1vh;
+    }
+    #blog h5{
+        font-size: 0.8vh;
+    }
+    #blogPostPopUp{
+        margin: 0 4.5vw;
+        margin-top: 11vh;
+        width: 81vw;
+    }
+    #blogPostPopUp h2{
+        font-size: 2vh;
+    }
+    #blogPostPopUp h3{
+        font-size: 1.5vh;
+    }
+    #blogPostPopUp p{
+        font-size: 1.3vh;
+        font-weight: 600;
+    }
+    #blogPostPopUp button{
+        font-size: 3vh;
+    }
+}

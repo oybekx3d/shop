@@ -1,0 +1,75 @@
+#mainMenuBanner{
+    background-image: url("../imgs/contact_banner.svg");
+    background-size: 100%;
+}
+#contactMainCont{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+#contactMainCont h2{
+    font-size: 3.5vw;
+}
+#contactMainCont * img{
+    width: 5vw;
+    height: fit-content;
+    margin-right: 2vw;
+}
+#contactMainCont * button{
+	border-radius: .2vw;
+}
+#contactMainCont div{   
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 2vh 5vw;
+}
+#contactMainCont div div{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+#contactMainCont div div div{
+    display: flex;
+    flex-direction: column;
+}
+#contactMainCont div div div h3{
+    font-size: 1.5vw;
+}
+#contactMainCont div div div button{
+    font-size: 1.5vw;
+    background-color: transparent;
+    border: #5562f6 0.2vw solid;
+    color: #fff;
+    height: max-content;
+    padding: 0.2vw 0.2vw;
+}
+#contactMainCont div div div button:hover{
+    cursor: pointer;
+    background-color: #272727;
+}
+#contactMainCont div div div div{
+    justify-content: end;
+    gap: 2vw;
+    flex-direction: row;
+}
+@media screen and (max-width: 800px){
+    #contactMainCont div{
+        grid-template-columns: auto;
+    }
+    #contactMainCont div div div button{
+    font-size: 2.5vh;
+    }
+    #contactMainCont div div div h3{
+        font-size: 1.8vh;
+    }
+    #contactMainCont * img{
+        width: 15vw;
+    }
+    
+    #contactMainCont div div div{
+        width: 70vw;
+    }
+}

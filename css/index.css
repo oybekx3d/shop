@@ -1,0 +1,210 @@
+.recommendedPCsHeader{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+.recommendedPCsHeader h2{
+    font-size: 4vw;
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
+.recommendedPCsHeader p{
+    font-size: 1.5vw;
+    text-align: center;
+}
+#banners{
+    display: flex;
+    flex-direction: column;
+    border: #5562f6 0.2vw solid;
+    margin: 3vh 5vw;
+    color: white;
+    padding: 1.5vw;
+}
+#banners div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#banners div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+#banners img{
+    width: 35vw;
+}
+#banners div p{
+    font-size: 2vw;
+    width: 35vw;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+#banners div button{
+    background-color: transparent;
+    border: #5562f6 0.2vw solid;
+    color: white;
+    font-size: 2vw;
+    padding: 0.6vw 2vw;
+}
+#banners div button:hover{
+    scale: 1.1;
+    background-color: #5562f6;
+}
+#reviewsHeader{
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+}
+@keyframes scroll {
+    to {
+      left: -30vw;
+    }
+  }
+#reviews{
+    width: 95%;
+    max-width: 100%;
+    margin-inline: auto;
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+    mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.95) 22%,
+      rgba(0, 0, 0, 1) 25%,
+      rgba(0, 0, 0, 1) 75%,
+      rgba(0, 0, 0, 0.75) 80%,
+      rgba(0, 0, 0, 0)
+    );
+}
+@media screen and (max-width: 1100px){
+    #reviews{
+        height: 30vh;
+    }
+}
+@media screen and (max-width: 1400px){
+    #reviews{
+        height: 40vh;
+    }
+}
+#reviews div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: #5562f6 0.2vw solid;
+    color: white;
+    padding: 1.5vw;
+
+    width: 15vw;
+    position: absolute;
+    left: max(calc(15vw * 8), 100%);
+    animation-name: scroll;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#reviews #aa1{ animation-delay: calc(30s / 6 * (6 - 1) * -1);}
+#reviews #aa2{ animation-delay: calc(30s / 6 * (6 - 1) * -2);}
+#reviews #aa3{ animation-delay: calc(30s / 6 * (6 - 1) * -3);}
+#reviews #aa4{ animation-delay: calc(30s / 6 * (6 - 1) * -4);}
+#reviews #aa5{ animation-delay: calc(30s / 6 * (6 - 1) * -5);}
+#reviews #aa6{ animation-delay: calc(30s / 6 * (6 - 1) * -6);}
+
+
+
+#reviewCont{
+    width: 89vw;
+    margin: 0 auto;
+    border: #5562f6 0.2vw solid;
+    padding: 2vw;
+}
+#reviews div:hover{
+    cursor: pointer;
+    scale: 1.1;
+    z-index: 9999;
+}
+#reviews div img{
+    width: 9vw;
+}
+#reviews div h2{
+    text-align: center;
+    font-size: 2vw;
+    margin: 0;
+}
+#reviews div p{
+    font-size: .9vw;
+    text-align: center;
+}
+@media screen and (max-width: 800px){
+	#banners div{
+		flex-direction: column ;
+        padding-bottom: 2vh;
+        border-bottom: #5562f6 0.2vw solid;
+	}
+    .recommendedPCsHeader h2{
+        font-size: 3.5vh;
+    }
+    .recommendedPCsHeader p{
+        font-size: 2vh;
+    }
+    #banners div:last-of-type{
+        border: none;
+    }
+    #banners div div{
+        border: none;
+    }
+	#banners img{
+		width: 70vw;
+	}
+    #banners div p{
+        font-size: 2vh;
+        width: 70vw;
+    }
+    #banners div button{
+        font-size: 2.5vh;
+    }
+    #banners div a{
+        margin: 0 auto;
+    }
+    #reviewsHeader{
+        font-size: 3vh;
+    }
+
+
+
+    #reviews div{
+        animation-duration: 30s;
+        width: 40vw;
+        height: 35vh;
+    }
+    
+    #reviews #aa1{ animation-delay: -5s}
+    #reviews #aa2{ animation-delay: -10s}
+    #reviews #aa3{ animation-delay: -15s}
+    #reviews #aa4{ animation-delay: -20s}
+    #reviews #aa5{ animation-delay: -25s}
+    #reviews #aa6{ animation-delay: -30s}
+
+    @keyframes scroll{
+        to{
+            left: -150vw;
+        }
+    }
+    #reviews div img{
+        width: 20vw;
+    }
+    #reviews div h2{
+        font-size: 2vh;
+        margin: auto 0;
+    }
+    #reviews div p{
+        font-size: 1.5vh;
+    }
+    #reviews div:hover{
+        scale: 1;
+    }
+}

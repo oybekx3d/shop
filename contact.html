@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <script src="js/jquery-3.7.2.min..js"></script>
+    <script src="js/global.js"></script>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact with businessName</title>
+  </head>
+  <body>
+    <div class="fixedView">
+        <div id="announcementBanner">
+          <a id="announcement" href="">Announcement!</a>
+        </div>
+        <nav id='menu'>
+        </nav>
+      </div>
+    
+    
+    <main>
+      <div id="mainMenuBanner">
+        <div>
+          <div>
+            <h1>Contact with us</h1>
+            <p>Do you want to be partners with us? Maybe you want to place your ad. Contact with us and lets us know about it!</p>
+            <button onclick="document.getElementById('contactMainCont').scrollIntoView({ behavior: 'smooth', block: 'center'});">Contact</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="contactMainCont">
+        <h2>Contact us using...</h2>
+        <div>
+          <div>
+            <img src="imgs/mail_icon.svg" alt="">
+            <div>
+              <h3>Email: business.email@domain.com</h3>
+              <div>
+                <button onclick="navigator.clipboard.writeText('business.email@domain.com'); alert('Copied to clipboard')">Copy</button>
+                <a href=""><button>Email</button></a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="imgs/discord_logo.svg" alt="">
+            <div>
+              <h3>Discord: @businessName</h3>
+              <div>
+                <button onclick="navigator.clipboard.writeText('@businessName'); alert('Copied to clipboard')">Copy</button>
+                <a href=""><button>Message</button></a>
+              </div>
+            </div>
+          </div>
+          <div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+    <footer>
+    </footer>
+    </body>
+</html>

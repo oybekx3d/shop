@@ -1,0 +1,322 @@
+{
+    "1" : {
+    "pcName":"Gaming PC NickName",
+    "pcDescription":"Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC",
+    "pcImg":"imgs/pc_empty.webp",
+    "pcPrice":"1$",
+
+    "cpu":"7800X3D",
+    "cpuBuyLink":"https://google.com/cpu",
+
+    "cooler":"Cooler Name",
+    "coolerBuyLink":"https://google.com/cooler",
+
+    "mobo":"B650 Aorus Elite XXX",
+    "moboBuyLink":"https://google.com/mobo",
+
+    "ram":"32GB DDR5[2x16] 6000MHz",
+    "ramBuyLink":"https://google.com/ram",
+
+    "storage":"1TB NVME SSD Gen 4.0",
+    "storageBuyLink":"https://google.com/storage",
+
+    "gpu":"7900XTX Merc",
+    "gpuBuyLink":"https://google.com/gpu",
+
+    "case":"Lian Li O11 Dynamic",
+    "caseBuyLink":"https://google.com/case",
+
+    "psu":"850W 80+ Dick rating",
+    "psuBuyLink":"https://google.com/psu",
+
+    "id": "1"
+},
+    "2" : {
+    "pcName":"Gaming PC NickName",
+    "pcDescription":"Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC",
+    "pcImg":"imgs/pc_empty.webp",
+    "pcPrice":"2$",
+    
+    "cpu":"7800X3D",
+    "cpuBuyLink":"https://google.com/cpu",
+
+    "cooler":"Cooler Name",
+    "coolerBuyLink":"https://google.com/cooler",
+
+    "mobo":"B650 Aorus Elite XXXX",
+    "moboBuyLink":"https://google.com/mobo",
+
+    "ram":"32GB DDR5[2x16] 6000MHz",
+    "ramBuyLink":"https://google.com/ram",
+
+    "storage":"1TB NVME SSD Gen 4.0",
+    "storageBuyLink":"https://google.com/storage",
+
+    "gpu":"7900XTX Merc",
+    "gpuBuyLink":"https://google.com/gpu",
+
+    "case":"Lian Li O11 Dynamic",
+    "caseBuyLink":"https://google.com/case",
+
+    "psu":"850W 80+ Dick rating",
+    "psuBuyLink":"https://google.com/psu",
+
+    "id": "2"
+    },
+    "3" : {
+        "pcName":"Gaming PC NickName",
+        "pcDescription":"Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC",
+        "pcImg":"imgs/pc_empty.webp",
+        "pcPrice":"3$",
+        
+        "cpu":"7800X3D",
+        "cpuBuyLink":"https://google.com/cpu",
+    
+        "cooler":"Cooler Name",
+        "coolerBuyLink":"https://google.com/cooler",
+    
+        "mobo":"B650 Aorus Elite XXX",
+        "moboBuyLink":"https://google.com/mobo",
+    
+        "ram":"32GB DDR5[2x16] 6000MHz",
+        "ramBuyLink":"https://google.com/ram",
+    
+        "storage":"1TB NVME SSD Gen 4.0",
+        "storageBuyLink":"https://google.com/storage",
+    
+        "gpu":"7900XTX Merc",
+        "gpuBuyLink":"https://google.com/gpu",
+    
+        "case":"Lian Li O11 Dynamic",
+        "caseBuyLink":"https://google.com/case",
+    
+        "psu":"850W 80+ Dick rating",
+        "psuBuyLink":"https://google.com/psu",
+
+        "id": "3"
+    },
+    "4" : {
+        "pcName":"Gaming PC NickName",
+        "pcDescription":"Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC",
+        "pcImg":"imgs/pc_empty.webp",
+        "pcPrice":"4$",
+        
+        "cpu":"7800X3D",
+        "cpuBuyLink":"https://google.com/cpu",
+    
+        "cooler":"Cooler Name",
+        "coolerBuyLink":"https://google.com/cooler",
+    
+        "mobo":"B650 Aorus Elite XXX",
+        "moboBuyLink":"https://google.com/mobo",
+    
+        "ram":"32GB DDR5[2x16] 6000MHz",
+        "ramBuyLink":"https://google.com/ram",
+    
+        "storage":"1TB NVME SSD Gen 4.0",
+        "storageBuyLink":"https://google.com/storage",
+    
+        "gpu":"7900XTX Merc",
+        "gpuBuyLink":"https://google.com/gpu",
+    
+        "case":"Lian Li O11 Dynamic",
+        "caseBuyLink":"https://google.com/case",
+    
+        "psu":"850W 80+ Dick rating",
+        "psuBuyLink":"https://google.com/psu",
+
+        "id": "4"
+    },
+    "5" : {
+        "pcName":"Gaming PC NickName",
+        "pcDescription":"Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC",
+        "pcImg":"imgs/pc_empty.webp",
+        "pcPrice":"5$",
+        
+        "cpu":"7800X3D",
+        "cpuBuyLink":"https://google.com/cpu",
+    
+        "cooler":"Cooler Name",
+        "coolerBuyLink":"https://google.com/cooler",
+    
+        "mobo":"B650 Aorus Elite XXX",
+        "moboBuyLink":"https://google.com/mobo",
+    
+        "ram":"32GB DDR5[2x16] 6000MHz",
+        "ramBuyLink":"https://google.com/ram",
+    
+        "storage":"1TB NVME SSD Gen 4.0",
+        "storageBuyLink":"https://google.com/storage",
+    
+        "gpu":"7900XTX Merc",
+        "gpuBuyLink":"https://google.com/gpu",
+    
+        "case":"Lian Li O11 Dynamic",
+        "caseBuyLink":"https://google.com/case",
+    
+        "psu":"850W 80+ Dick rating",
+        "psuBuyLink":"https://google.com/psu",
+
+        "id": "5"
+    },
+    "6" : {
+        "pcName":"Gaming PC NickName",
+        "pcDescription":"Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC",
+        "pcImg":"imgs/pc_empty.webp",
+        "pcPrice":"6$",
+        
+        "cpu":"7800X3D",
+        "cpuBuyLink":"https://google.com/cpu",
+    
+        "cooler":"Cooler Name",
+        "coolerBuyLink":"https://google.com/cooler",
+    
+        "mobo":"B650 Aorus Elite XXX",
+        "moboBuyLink":"https://google.com/mobo",
+    
+        "ram":"32GB DDR5[2x16] 6000MHz",
+        "ramBuyLink":"https://google.com/ram",
+    
+        "storage":"1TB NVME SSD Gen 4.0",
+        "storageBuyLink":"https://google.com/storage",
+    
+        "gpu":"7900XTX Merc",
+        "gpuBuyLink":"https://google.com/gpu",
+    
+        "case":"Lian Li O11 Dynamic",
+        "caseBuyLink":"https://google.com/case",
+    
+        "psu":"850W 80+ Dick rating",
+        "psuBuyLink":"https://google.com/psu",
+
+        "id": "6"
+    },
+    "7" : {
+        "pcName":"Gaming PC NickName",
+        "pcDescription":"Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC",
+        "pcImg":"imgs/pc_empty.webp",
+        "pcPrice":"7$",
+        
+        "cpu":"7800X3D",
+        "cpuBuyLink":"https://google.com/cpu",
+    
+        "cooler":"Cooler Name",
+        "coolerBuyLink":"https://google.com/cooler",
+    
+        "mobo":"B650 Aorus Elite XXX",
+        "moboBuyLink":"https://google.com/mobo",
+    
+        "ram":"32GB DDR5[2x16] 6000MHz",
+        "ramBuyLink":"https://google.com/ram",
+    
+        "storage":"1TB NVME SSD Gen 4.0",
+        "storageBuyLink":"https://google.com/storage",
+    
+        "gpu":"7900XTX Merc",
+        "gpuBuyLink":"https://google.com/gpu",
+    
+        "case":"Lian Li O11 Dynamic",
+        "caseBuyLink":"https://google.com/case",
+    
+        "psu":"850W 80+ Dick rating",
+        "psuBuyLink":"https://google.com/psu",
+
+        "id": "7"
+    },
+    "8" : {
+        "pcName":"Gaming PC NickName",
+        "pcDescription":"Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC",
+        "pcImg":"imgs/pc_empty.webp",
+        "pcPrice":"8$",
+        
+        "cpu":"7800X3D",
+        "cpuBuyLink":"https://google.com/cpu",
+    
+        "cooler":"Cooler Name",
+        "coolerBuyLink":"https://google.com/cooler",
+    
+        "mobo":"B650 Aorus Elite XXX",
+        "moboBuyLink":"https://google.com/mobo",
+    
+        "ram":"32GB DDR5[2x16] 6000MHz",
+        "ramBuyLink":"https://google.com/ram",
+    
+        "storage":"1TB NVME SSD Gen 4.0",
+        "storageBuyLink":"https://google.com/storage",
+    
+        "gpu":"7900XTX Merc",
+        "gpuBuyLink":"https://google.com/gpu",
+    
+        "case":"Lian Li O11 Dynamic",
+        "caseBuyLink":"https://google.com/case",
+    
+        "psu":"850W 80+ Dick rating",
+        "psuBuyLink":"https://google.com/psu",
+
+        "id": "8"
+    },
+    "9" : {
+        "pcName":"Gaming PC NickName",
+        "pcDescription":"Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC",
+        "pcImg":"imgs/pc_empty.webp",
+        "pcPrice":"9$",
+        
+        "cpu":"7800X3D",
+        "cpuBuyLink":"https://google.com/cpu",
+    
+        "cooler":"Cooler Name",
+        "coolerBuyLink":"https://google.com/cooler",
+    
+        "mobo":"B650 Aorus Elite XXX",
+        "moboBuyLink":"https://google.com/mobo",
+    
+        "ram":"32GB DDR5[2x16] 6000MHz",
+        "ramBuyLink":"https://google.com/ram",
+    
+        "storage":"1TB NVME SSD Gen 4.0",
+        "storageBuyLink":"https://google.com/storage",
+    
+        "gpu":"7900XTX Merc",
+        "gpuBuyLink":"https://google.com/gpu",
+    
+        "case":"Lian Li O11 Dynamic",
+        "caseBuyLink":"https://google.com/case",
+    
+        "psu":"850W 80+ Dick rating",
+        "psuBuyLink":"https://google.com/psu",
+
+        "id": "9"
+    },
+    "10" : {
+        "pcName":"Gaming PC NickName",
+        "pcDescription":"Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC, Powerful and fast 4K Gaming and Productivity PC",
+        "pcImg":"imgs/pc_empty.webp",
+        "pcPrice":"10$",
+        
+        "cpu":"7800X3D",
+        "cpuBuyLink":"https://google.com/cpu",
+    
+        "cooler":"Cooler Name",
+        "coolerBuyLink":"https://google.com/cooler",
+    
+        "mobo":"B650 Aorus Elite XXX",
+        "moboBuyLink":"https://google.com/mobo",
+    
+        "ram":"32GB DDR5[2x16] 6000MHz",
+        "ramBuyLink":"https://google.com/ram",
+    
+        "storage":"1TB NVME SSD Gen 4.0",
+        "storageBuyLink":"https://google.com/storage",
+    
+        "gpu":"7900XTX Merc",
+        "gpuBuyLink":"https://google.com/gpu",
+    
+        "case":"Lian Li O11 Dynamic",
+        "caseBuyLink":"https://google.com/case",
+    
+        "psu":"850W 80+ Dick rating",
+        "psuBuyLink":"https://google.com/psu",
+
+        "id": "10"
+    }
+}

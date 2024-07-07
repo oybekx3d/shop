@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <script src="js/jquery-3.7.2.min..js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/pcrelated.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/pc.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - BrandName</title>
+  </head>
+  <body>
+    <div class="fixedView">
+      <div id="announcementBanner">
+        <a id="announcement" href="">Announcement!</a>
+      </div>
+      <nav id='menu'>
+      </nav>
+    </div>
+    <main>
+      <div id="mainMenuBanner">
+        <div>
+          <div>
+            <h1>Best Computer for your Money</h1>
+            <p>Discover The Best Computers for Gaming and Productivity, Peripherals & Accessories For Your Money, Hot Deals on the Internet!</p>
+            <button onclick="document.getElementById('PCList').scrollIntoView({ behavior: 'smooth', block: 'start'});">Discover Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="recommendedPCsHeader">
+        <h2>Recommended PCs</h2>
+        <p>Check out personally recommended computers, these are mostly very good deals or very good combinations</p>
+      </div>
+      <div id="PCList">
+      </div>
+      <div id="banners">
+        <div class="mobileHide">  
+          <div>
+            <p>Get the Highest Possible performanec out of your Money with our Gaming PCs</p>
+            <a href="gaming.html"><button>Let's Game</button></a>
+          </div>
+            <img src="imgs/gaming.svg" alt="">
+        </div>
+        <div class="desktopHide">
+          <img src="imgs/gaming.svg" alt="">
+          <div>
+            <p>Get the Highest Possible performanec out of your Money with our Gaming PCs</p>
+            <a href="gaming.html"><button>Let's Game</button></a>
+          </div>
+        </div>
+        <div>
+          <img src="imgs/prod.svg" alt="">
+          <div>
+            <p>Improve your Productivity tasks with Best Workstation Computers and Accessories</p>
+            <a href="productivity.html"><button>Let's Create</button></a>
+          </div>
+        </div>
+        <div class="mobileHide">
+          <div>
+            <p>Upgrade your Setup with good looking yet useful accessories and peripherals</p>
+            <a href="accs.html"><button>Let's See</button></a>
+          </div>
+          <img src="imgs/peripherals.svg" alt="">
+        </div>
+        <div class="desktopHide">
+          <img src="imgs/peripherals.svg" alt="">
+          <div>
+            <p>Upgrade your Setup with good looking yet useful accessories and peripherals</p>
+            <a href="accs.html"><button>Let's See</button></a>
+          </div>
+        </div>
+        <div>
+          <img src="imgs/deals.svg" alt="">
+          <div>
+            <p>Get to know the Best Deals on the Internet and Snipe a Nice gift for yourself.</p>
+            <a href="deals.html"><button>Check Deals</button></a>
+          </div>
+        </div>
+        <div class="mobileHide">
+          <div>
+            <p>Check Any Computers Benchmarks without even ordering it with our Benchmarks!</p>
+            <a href="benchmarks.html"><button>Let's Check</button></a>
+          </div>
+          <img src="imgs/benchmark.svg" alt="">
+        </div>
+        <div class="desktopHide">
+          <img src="imgs/benchmark.svg" alt="">
+          <div>
+            <p>Check Any Computers Benchmarks without even ordering it with our Benchmarks!</p>
+            <a href="benchmarks.html"><button>Let's Check</button></a>
+          </div>
+        </div>
+        <div>
+          <img src="imgs/learn.svg" alt="">
+          <div>
+            <p>Check our Blog to find the latest Tech News and Tutorials & Tips!</p>
+            <a href="blog.html"><button>Read Now!</button></a>
+          </div>
+        </div>
+        <div class="mobileHide">
+          <div>
+            <p>Read about Updates on our Website & Social Media</p>
+            <a href="news.html"><button>Read!</button></a>
+          </div>
+          <img src="imgs/news.svg" alt="">
+        </div>
+        <div class="desktopHide">
+          <img src="imgs/news.svg" alt="">
+          <div>
+            <p>Read about Updates on our Website & Social Media</p>
+            <a href="news.html"><button>Read!</button></a>
+          </div>
+        </div>
+        <div>
+          <img src="imgs/faq.svg" alt="">
+          <div>
+            <p>Any questions about us? Find out in F.A.Q. section.</p>
+            <a href="faq.html"><button>Find Answers!</button></a>
+          </div>
+        </div>
+        <div class="desktopHide">
+          <img src="imgs/about.svg" alt="">
+          <div>
+            <p>Find out more Information about our Company and our goal</p>
+            <a href="about.html"><button>Read!</button></a>
+          </div>
+        </div>
+        <div class="mobileHide">
+          <div>
+            <p>Find out more Information about our Company and our goal</p>
+            <a href="about.html"><button>Read!</button></a>
+          </div>
+          <img src="imgs/about.svg" alt="">
+        </div>
+        <div>
+          <img src="imgs/social-media.svg" alt="">
+          <div>
+            <p>Follow us on Social Media to keep up with the latest updates and Enjoy our Content</p>
+            <a href="socials.html"><Button>Follow!</Button></a>
+          </div>
+        </div>
+        <div>
+          <div class="mobileHide">
+            <p>Get in touch with us if you have any questions or offers!</p>
+            <a href="contact.html"><button>Contact!</button></a>
+          </div>
+          <img src="imgs/partnership.svg" alt="">
+        </div>
+        <div class="desktopHide">
+          <img src="imgs/partnership.svg" alt="">
+          <div>
+            <p>Get in touch with us if you have any questions or offers!</p>
+            <a href="contact.html"><button>Contact!</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="reviewCont">
+        <h2 id="reviewsHeader">Others Opinions on Us</h2>
+        <div id="reviews" data-flickity-options='{ "wrapAround": true }'>
+          <div id="aa1">
+            <img src="https://gamertech.ca/cdn/shop/files/Assassins_83c01df7-4a92-49d1-873d-02d4dcbf8bbc.png" alt="Gamer Tech Toronto">
+            <h2>Gamer Tech Toronto</h2>
+            <p>This website is so stupidly awful that I cannot even do Shit. Whoever made this should go Fuck himself and quit this thing - Niam Canuck</p>
+          </div>
+          <div id="aa2">
+            <img src="imgs/person_temp.svg" alt="Person Face">
+            <h2>A good brand 33</h2>
+            <p>They will check my website and hopefully share their experience with me. I will add some words like this, no more ideas to be honest.</p>
+          </div>
+          <div id="aa3">
+            <img src="imgs/person_temp.svg" alt="Person Face">
+            <h2>A good brand 55 </h2>
+            <p>They will check my website and hopefully share their experience with me. I will add some words like this, no more ideas to be honest.</p>
+          </div>
+          <div id="aa4">
+            <img src="imgs/person_temp.svg" alt="Person Face">
+            <h2>A good brand  66</h2>
+            <p>They will check my website and hopefully share their experience with me. I will add some words like this, no more ideas to be honest.</p>
+          </div>
+          <div id="aa5">
+            <img src="imgs/person_temp.svg" alt="Person Face">
+            <h2>A good brand 88</h2>
+            <p>They will check my website and hopefully share their experience with me. I will add some words like this, no more ideas to be honest.</p>
+          </div>
+          <div id="aa6">
+            <img src="imgs/person_temp.svg" alt="Person Face">
+            <h2>A good brand 5555</h2>
+            <p>They will check my website and hopefully share their experience with me. I will add some words like this, no more ideas to be honest.</p>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+    <footer>
+      </footer>
+    </body>
+    <script>
+      $(loadComputers("index"));
+    </script>
+</html>

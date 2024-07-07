@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jquery-3.7.2.min..js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/acc.js"></script>
+    <script src="js/benchmarks.js"></script>
+    <script src="js/search.js"></script>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/benchmarks.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benchmarks - BusinessName</title>
+</head>
+<body onload="loadBenchmarks()">
+    
+  <div class="fixedView">
+      <div id="announcementBanner">
+        <a id="announcement" href="">Announcement!</a>
+      </div>
+      <nav id='menu'>
+      </nav>
+    </div>
+
+
+
+  <main>
+    <div id="mainMenuBanner">
+      <div>
+        <div>
+          <h1>PC Benchmarks</h1>
+          <p>Research and know your PCs Power before actually buying it with Benchmarks Provided by Us and our Partners</p>
+          <button onclick="document.getElementById('searchCont').scrollIntoView({ behavior: 'smooth', block: 'center'});">Check!</button>
+        </div>
+      </div>
+    </div>
+    <div id="searchCont">
+      <input type="text" id="searchInput" placeholder="Search Peripherals & more...">
+    </div>
+
+    <div id="benchmarkMainCont">
+      <div id="benchmarksVidCont">
+      </div>
+    </div>
+      
+  </main>
+  <footer>
+    </footer>
+</body>
+</html>

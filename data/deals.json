@@ -1,0 +1,59 @@
+{
+    "1" : {
+        "id": "1",
+        "dealItemName":"Monitor 32' 4K OLED 144hz",
+        "dealInfo":"4KOLED 32 inch Monitor with 144Hz refresh rate on sale for 399$",
+        "dealImg":"imgs/deals/monitor4koled.jpg",
+        "dealPrice":"22$",
+        "buyLink":"https://google.com"
+    },
+    "2" : {
+        "id": "2",
+        "dealItemName":"Gaming PC NickName",
+        "dealInfo":"80% RGB Mechanical Keyboard, includes extra keycaps and free s3x doll",
+        "dealImg":"imgs/pc_empty.webp",
+        "dealPrice":"2$",
+        "buyLink":"https://google.com"
+    },
+    "3" : {
+        "id": "3",
+        "dealItemName":"Gaming PC NickName",
+        "dealInfo":"A kid with broken rib, all organs work as intended",
+        "dealImg":"imgs/deals/gpu_4090_ROGStrix.png",
+        "dealPrice":"2$",
+        "buyLink":"https://google.com"
+    },
+    "4" : {
+        "id": "4",
+        "dealItemName":"Gaming PC NickName",
+        "dealInfo":"John wicks pee, drink only in emergency",
+        "dealImg":"imgs/pc_empty.webp",
+        "dealPrice":"2$",
+        "buyLink":"https://google.com"
+    },
+    "5" : {
+        "id": "5",
+        "dealItemName":"Gaming PC NickName",
+        "dealInfo":"i11 16th gen, 14 cores 12 threads",
+        "dealImg":"imgs/pc_empty.webp",
+        "dealPrice":"2$",
+        "buyLink":"https://google.com"
+    },
+    "6" : {
+        "id": "6",
+        "dealItemName":"Gaming PC NickName",
+        "dealInfo":"Headphones with microphone, quick mute button as wekk as hangin d1ldo",
+        "dealImg":"imgs/pc_empty.webp",
+        "dealPrice":"2$",
+        "buyLink":"https://google.com"
+    },
+    "7" : {
+        "id": "7",
+        "dealItemName":"Gaming PC NickName",
+        "dealInfo":"edible toilet paper, 69meters, 6pcs in box",
+        "dealImg":"imgs/pc_empty.webp",
+        "dealPrice":"2$",
+        "buyLink":"https://google.com"
+    }
+}
+

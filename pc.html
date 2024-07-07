@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jquery-3.7.2.min..js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/pcrelated.js"></script>
+    <script>
+      var url = window.location.search;
+      console.log(url);
+      var urlParams = new URLSearchParams(url);
+      var category = urlParams.get('category');
+      var id = urlParams.get('id');
+      loadPCInfo();      
+
+      
+function buyPC() {
+  $("#buyLinks").css("display", "grid");
+}
+
+    </script>
+    <link rel="stylesheet" href="css/pc.css">
+    <link rel="stylesheet" href="css/global.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewing PC</title>
+</head>
+<body>
+  <div class="fixedView">
+    <div id="announcementBanner">
+      <a id="announcement" href="">Announcement!</a>
+    </div>
+    <nav id='menu'>
+    </nav>
+  </div>
+
+
+      <main>
+        <div id="pcInfoCont" onload="loadPCInfo()">
+            <div>
+              <div>
+                <img src="" alt="" id="popUpImg">
+              </div>
+              <div>
+                <h2 id="popUpName"></h2>
+                <p id="popUpDesc"></p>
+                <div class="spacer"></div>
+                <h3>Specifications</h3>
+                <ol id="pcSpecCont">
+                  <li class="cpu"></li>
+                  <li class="cooler"></li>
+                  <li class="mobo"></li>
+                  <li class="ram"></li>
+                  <li class="storage"></li>
+                  <li class="gpu"></li>
+                  <li class="case"></li>
+                  <li class="psu"></li>
+                </ol>
+                <div class="spacer"></div>
+                <div>
+                  <h3 id="price"></h3>
+                  <button id="popUpBuyBtn" onclick="buyPC()">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div id="buyLinks">
+                <h4>CPU</h4>
+                <h4 class="cpu"></h4>
+                <a target="_blank" id="cpuBuy" href="">Buy</a>
+                <h4>CPU Cooler</h4>
+                <h4 class="cooler"></h4>
+                <a target="_blank" id="coolerBuy" href="">Buy</a>
+                <h4>Motherboard</h4>
+                <h4 class="mobo"></h4>
+                <a target="_blank" id="moboBuy" href="">Buy</a>
+                <h4>RAM</h4>
+                <h4 class="ram"></h4>
+                <a target="_blank" id="ramBuy" href="">Buy</a>
+                <h4>SSD</h4>
+                <h4 class="storage"></h4>
+                <a target="_blank" id="storageBuy" href="">Buy</a>
+                <h4>GPU</h4>
+                <h4 class="gpu"></h4>
+                <a target="_blank" id="gpuBuy" href="">Buy</a>
+                <h4>Case</h4>
+                <h4 class="case"></h4>
+                <a target="_blank" id="caseBuy" href="">Buy</a>
+                <h4>PSU</h4>
+                <h4 class="psu"></h4>
+                <a target="_blank" id="psuBuy" href="">Buy</a>
+            </div>
+          </div>
+
+
+
+          
+      </main>
+
+
+    <footer>
+      </footer>
+</body>
+</html>
