@@ -1,17 +1,6 @@
 
         <div>
           <div>
-            <img src="imgs/pc_empty.webp" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quis deleniti repellat iusto est nisi dicta ipsa voluptate pariatur unde.</p>
-          </div>
-          <div>
-            <h3>Other Projects</h3>
-            <a href="">Project 1</a>
-            <a href="">Project 2</a>
-            <a href="">Project 3</a>
-            <a href="">Project 4</a>
-          </div>
-          <div>
             <h3>Partners</h3>
             <a href="">GamerTech Toronto</a>
             <a href="">PainHub</a>
@@ -22,9 +11,7 @@
             <a href="socials.html">Our Socials</a>
             <a href="faq.html">F.A.Q.</a>
             <a href="about.html">About</a>
-            <a href="news.html">News</a>
-            <h3>Donations</h3>
-            <a href="">Donate!</a>
+            <a href="#">Donate!</a>
           </div>
         </div>
         <h4>Website Made by Oybek Qodirberdiyev</h4>

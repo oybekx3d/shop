@@ -15,7 +15,7 @@
           <li><a class='dropdown-arrow'>Info</a>
             <ul class='sub-menus'>
               <li><a href='socials.html'>Social Media Pages</a></li>
-              <li><a href='contact.html'>Business Contact</a></li>
+              <li><a href='partnership.html'>Partnership</a></li>
               <li><a href='about.html'>About</a></li>
               <li><a href='faq.html'>FAQ</a></li>
             </ul>

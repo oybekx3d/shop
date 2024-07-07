@@ -1,0 +1,83 @@
+#mainMenuBanner{
+    background-image: url("../imgs/accs_banner.svg");
+}
+#accList{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1vw;
+    border: 0.2vw solid #5562f6;
+    padding: 1vw;
+    margin: 5vh 5vw;
+}
+#accCont{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    border: 0.2vw solid #5562f6;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+#accCont img{
+    width: 18vw;
+    align-self: 1/1;
+    object-fit: contain;
+}
+#accCont h2{
+    font-size: 1.6vw;
+    margin: 0;
+}
+#accCont h3, p{
+    font-size: 1.5vw;
+    margin: 0;
+    margin-bottom: 1vh;
+}
+#accCont h3{
+    margin: 1vh 0;
+    margin-top: auto;
+}
+#accCont p{
+    font-size: 1vw;
+    margin: 1vh 0;
+    vertical-align: top;
+}
+#accCont button{
+    font-size: 2vw;
+    padding: 0.5vh 1.5vw;
+    background-color: transparent;
+    border: #5562f6 0.2vw solid;
+    color: white;
+	border-radius: .2vw;
+}
+#accCont button:hover{
+    background-color: #5562f6;
+}
+@media screen and (max-width: 800px){
+    #accList{
+        grid-template-columns: auto;
+    }
+    #accCont img{
+        width: 70vw;
+    }
+    #accCont h2{
+        font-size: 3vh;
+        margin-bottom: 2vh;
+    }
+    #accCont p{
+        font-size: 1.7vh;
+        padding: 0 3vw;
+    }
+    #accCont h3{
+        font-size: 2.5vh;
+    }
+    #accCont button{
+        font-size: 3vh;
+        margin-bottom: 1vh;
+        padding: 1vh 20vw;
+    }
+    #accPrice{
+        font-size: 2vh !important;
+    }
+}

@@ -1,0 +1,29 @@
+#mainMenuBanner{
+    background-image: url("../imgs/contact_banner.svg");
+    background-size: 100%;
+}
+#cont{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+}
+#cont h2{
+    font-size: 3vw;
+}
+#cont p{
+    font-size: 1.2vw;
+}
+#cont button{
+    font-size: 1.2vw;
+    margin: 0 1vw;
+    background-color: transparent;
+    border: #5562f6 0.2vw solid;
+    color: #fff;
+}
+#cont a{
+    color: #5562f6;
+    text-decoration: underline;
+}

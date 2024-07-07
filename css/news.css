@@ -1,0 +1,60 @@
+#mainMenuBanner{
+    background-image: url("../imgs/news_banner.svg");
+    background-size: 70%;
+}
+#news{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 4vh 5vw;
+    padding: 1vw;
+    color: #fff;
+    gap: 2vw;
+}
+.newsContClickCheck{
+  background-color: #272727;
+  padding: 1vw;
+  border: none !important;
+}
+.newsContClickCheck h3{
+  font-size: 1.8vw;
+}
+.newsContClickCheck p{
+    font-size: 1.2vw;
+}
+.newsContFull {
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #2f2f2f;
+    border: none !important;
+}
+.newsContFull img{
+    width: 80vw;
+    aspect-ratio: 4/1;
+}
+.newsContFull h4{
+    font-size: 1vw;
+}
+.newsContFull p{
+    font-size: 1.3vw;
+}
+#news div{
+    padding: 1vh;
+    border: #5562f6 0.2vw solid;
+}
+@media screen and (max-width: 800px){
+    .newsContClickCheck h3{
+        font-size: 2vh;
+        text-align: center;
+    }
+    .newsContClickCheck p{
+        font-size: 1.5vh;
+        text-align: center;
+    }
+    .newsContFull h4{
+        font-size: 1.5vh;
+    }
+    .newsContFull p{
+        font-size: 1.7vh;
+    }
+}
