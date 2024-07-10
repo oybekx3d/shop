@@ -105,9 +105,13 @@
 @media screen and (max-width: 800px){
     #blog{
         grid-template-columns: auto;
+        margin: 0;
     }
     #blog img{
         width: 30vw;
+    }
+    #blog a{
+        width: 93vw;
     }
     #blog h2{
         font-size: 2vh;

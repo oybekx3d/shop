@@ -30,7 +30,6 @@
 .filter{
     display: flex;
     flex-direction: column;
-    border: #5562f6 0.2vw solid;
     padding: 1vw 0.5vw;
 }
 .filter h3{

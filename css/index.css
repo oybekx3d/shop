@@ -16,11 +16,10 @@
 #banners{
     display: flex;
     flex-direction: column;
-    border: #5562f6 0.2vw solid;
     margin: 3vh 5vw;
     color: white;
     padding: 1.5vw;
-}
+}   
 #banners div{
     display: flex;
     flex-direction: row;

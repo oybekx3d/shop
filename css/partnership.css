@@ -27,3 +27,17 @@
     color: #5562f6;
     text-decoration: underline;
 }
+@media screen and (max-width: 800px){
+    #cont p{
+        font-size: 4vw;
+    }
+    #cont{
+        width: 80vw;
+    }
+    #cont h2{
+        font-size: 6vw;
+    }
+    #cont button{
+        font-size: 4vw;
+    }
+}

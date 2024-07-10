@@ -5,7 +5,6 @@
 #helpMainCont{
     display: flex;
     color: white;
-    border: #5562f6 0.2vw solid;
     margin: 5vh 10vw;
     padding: 2vw;
 }
